@@ -1,0 +1,56 @@
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12,
+.footer {
+    height: 50px;
+    background-color: grey;
+    flex-grow: 1;
+    
+}
+.container1,
+.container2,
+.container3,
+.container4 {
+    background-color: skyblue;
+    display: flex;
+}
+.container1 {
+    gap: 10px;
+    padding: 10px;
+}
+.container2 {
+    gap: 15px;
+    padding: 15px;
+}
+.container3,
+.container4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 12px;
+}
+.box6 {
+    flex-grow: 2;
+}
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11,
+.box12 {
+    border: 2px solid black;
+}
+.footer {
+    width: 100%;
+    border: 2px solid black;
+}
